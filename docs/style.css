@@ -75,6 +75,7 @@ h3 {
 #yearSelect{
     position: absolute;
     display: flex;
+    margin: 75px;
     left: 0;
     right: 0;
     justify-content: center;
@@ -162,3 +163,4 @@ h3 {
 .legend-text4{
     padding: 0 17px;
 }
+
