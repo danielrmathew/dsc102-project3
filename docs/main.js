@@ -1,6 +1,6 @@
 // Set up the projection
-const width = 800;
-const height = 600;
+const width = (2/3) * window.innerWidth;
+const height = (2/3) * window.innerHeight;
 let start;
 
 let rotateEnabled = true; 
@@ -226,7 +226,7 @@ d3.json("countries-110m.json").then((world) => {
 
     svg.call(drag);
     svg.call(zoom);
-    zoom.scaleTo(svg, 1)
+    zoom.scaleTo(svg, 0.75)
 
     d3.timer(rotateGlobe);
 

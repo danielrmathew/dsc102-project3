@@ -73,7 +73,7 @@ h3 {
 }
 
 #yearSelect{
-    bottom: 100px;
+    bottom: 5%;
     position: absolute;
     display: flex;
     left: 0;
