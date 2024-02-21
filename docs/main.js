@@ -87,7 +87,7 @@ d3.json("countries-110m.json").then((world) => {
         .style('fill', '#132A50');
 
     // Load the internet data CSV file
-    d3.csv("/static/Internet_data_mod.csv").then(internetData => {
+    d3.csv("Internet_data_mod.csv").then(internetData => {
         const internetDataMap = new Map();
         internetData.forEach(d => {
             const country = d.Name;
